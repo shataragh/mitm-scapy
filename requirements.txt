@@ -1,0 +1,25 @@
+# ==============================
+# Required Python Dependencies
+# ==============================
+
+# Scapy: A powerful Python library used for network packet manipulation.
+# It is the core library for packet sniffing, crafting, and analysis in this script.
+scapy>=2.4.5
+
+# Optional Dependencies (Uncomment if needed)
+# -------------------------------------------
+
+# netfilterqueue: Used for interacting with Netfilter queues in Linux.
+# Uncomment this line if you plan to use iptables or NFQUEUE in the future.
+# netfilterqueue>=1.0.0
+
+# dnspython: A DNS toolkit for Python, useful for DNS spoofing or manipulation.
+# Uncomment this line if you plan to extend the script for DNS-based attacks.
+# dnspython>=2.0.0
+
+# ==============================
+# Installation Instructions
+# ==============================
+
+# To install the required dependencies, run the following command:
+# pip install -r requirements.txt
